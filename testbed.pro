@@ -54,11 +54,6 @@ SOURCES += main/glwidget.cpp \
     tools/manipulator.cpp
 FORMS += mainwindow.ui \
     support/mainwindow.ui
-OTHER_FILES += shaders/fractal.frag \
-    shaders/fractal.vert \
-    shaders/mandelbox.vert \
-    shaders/mandelbox.frag \
-    shaders/mandelboxregion.frag \
-    shaders/mandelboxregion.vert
+
 RESOURCES +=
 

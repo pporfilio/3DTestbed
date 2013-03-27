@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Fractal</string>
+   <string>3DTestbed</string>
   </property>
   <widget class="GLWidget" name="mainGL"/>
   <widget class="QMenuBar" name="menuBar">

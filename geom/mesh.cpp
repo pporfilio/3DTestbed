@@ -143,6 +143,7 @@ Mesh::Intersection Mesh::getIntersectingPoly(const Ray r) const {
         float t = (*p)->intersect(r);
         if (t > 0 && t < minT) {
             intersection = Intersection(t, (*p));
+            minT = t;
         }
     }
 
